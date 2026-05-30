@@ -1,38 +1,20 @@
 const experiences = [
   {
-    period: "2022 — Present",
-    role: "Senior Frontend Engineer",
-    company: "Tech Innovators Inc.",
+    period: "Jan 2024— Aug 2024",
+    role: "Software Developer",
+    company: "First Language Technologies",
     description:
-      "Leading frontend architecture for a suite of fintech products. Implemented micro-frontend architecture, reduced bundle size by 40%, and mentored a team of 5 developers.",
-    technologies: ["React", "TypeScript", "Next.js", "GraphQL"],
+      "Developed responsive web applications using React.js and Tailwind CSS while collaborating on DocZen, an NLP-powered platform designed to extract insights from unstructured datasets for healthcare and finance industries.",
+    technologies: ["React", "Tailwind CSS", "Python", "NLP"],
     current: true,
   },
   {
-    period: "2020 — 2022",
-    role: "Frontend Engineer",
-    company: "Digital Solutions Co.",
+    period: "May 2022 — July 2022",
+    role: "Full Stack Developer",
+    company: "Swan Infosys",
     description:
-      "Built and maintained multiple React applications for enterprise clients. Introduced automated testing practices that improved code coverage to 85%.",
-    technologies: ["React", "Redux", "Jest", "Cypress"],
-    current: false,
-  },
-  {
-    period: "2019 — 2020",
-    role: "Junior Developer",
-    company: "StartUp Labs",
-    description:
-      "Contributed to the development of a SaaS platform from MVP to production. Collaborated with designers to implement pixel-perfect UI components.",
-    technologies: ["React", "Node.js", "MongoDB", "AWS"],
-    current: false,
-  },
-  {
-    period: "2018 — 2019",
-    role: "Freelance Developer",
-    company: "Self-Employed",
-    description:
-      "Delivered custom web solutions for small businesses and startups. Built 15+ websites and applications, handling everything from design to deployment.",
-    technologies: ["JavaScript", "PHP", "WordPress", "MySQL"],
+      "Developed a responsive full-stack web application using HTML, JavaScript, and SQLite, focusing on smooth user experience, efficient database integration, and optimized frontend performance.",
+    technologies: ["JavaScript", "SQLite", "Responsive Design"],
     current: false,
   },
 ];
@@ -59,10 +41,10 @@ export const Experience = () => {
            mt-4 mb-6 animate-fade-in animation-delay-100
             text-secondary-foreground"
           >
-            Experience that{" "}
+            Experience that {" "}
             <span className="font-serif italic font-normal text-white">
               {" "}
-              speaks volumes.
+              drives innovation.
             </span>
           </h2>
 
@@ -70,8 +52,8 @@ export const Experience = () => {
             className="text-muted-foreground
            animate-fade-in animation-delay-200"
           >
-            A timeline of my professional growth, from curious beginner to
-            senior engineer leading teams and building products at scale.
+            A journey of building intelligent applications, scalable software systems, 
+            and AI-driven solutions through hands-on development experience.
           </p>
         </div>
 

@@ -3,26 +3,26 @@ import { Code2, Lightbulb, Rocket, Users } from "lucide-react";
 const highlights = [
   {
     icon: Code2,
-    title: "Clean Code",
+    title: "Python Development",
     description:
-      "Writing maintainable, scalable code that stands the test of time.",
+      "Building scalable backend systems and intelligent applications using modern Python technologies.",
   },
   {
     icon: Rocket,
-    title: "Performance",
+    title: "AI & Machine Learning",
     description:
-      "Optimizing for speed and delivering lightning-fast user experiences.",
+      "Developing predictive models, NLP workflows, and data-driven software solutions.",
   },
   {
     icon: Users,
-    title: "Collaboration",
-    description: "Working closely with teams to bring ideas to life.",
+    title: "Problem Solving",
+    description: "Applying analytical thinking and software engineering principles to real-world challenges.",
   },
   {
     icon: Lightbulb,
-    title: "Innovation",
+    title: "Full Stack Engineering",
     description:
-      "Staying ahead with the latest technologies and best practices.",
+      "Creating responsive web applications with React.js, REST APIs, and modern development practices.",
   },
 ];
 
@@ -40,39 +40,38 @@ export const About = () => {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-              Building the future,
+            Building intelligent systems,
               <span className="font-serif italic font-normal text-white">
                 {" "}
-                one component at a time.
+                one solution at a time.
               </span>
             </h2>
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
+              I'm a passionate software developer with experience building 
+              AI-driven and full-stack applications using Python, React.js, and 
+              modern backend technologies. My journey started with curiosity for 
+              problem-solving and evolved into a strong focus on intelligent systems, 
+              machine learning workflows, and scalable software engineering.
               </p>
               <p>
-                I specialize in React, Next.js, and TypeScript, building
-                everything from sleek landing pages to complex enterprise
-                applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
+              I specialize in Python development, NLP workflows, and data-driven applications, 
+              building solutions that combine performance, usability, and modern software practices. 
+              My work ranges from machine learning projects and predictive analytics to responsive web applications and backend systems.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+              When I'm not coding, you'll find me exploring emerging AI technologies, 
+              improving my development skills, and building projects that solve real-world 
+              problems through intelligent automation and scalable design.
               </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My mission is to create digital experiences that are not just
-                functional, but truly delightful — products that users love to
-                use and developers love to maintain."
+              "My mission is to build intelligent software 
+              solutions that are not only efficient and scalable, 
+              but also impactful for real-world users and businesses."
               </p>
             </div>
           </div>

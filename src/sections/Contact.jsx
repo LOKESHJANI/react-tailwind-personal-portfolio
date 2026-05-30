@@ -14,20 +14,20 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "pedro@example.com",
-    href: "mailto:pedro@example.com",
+    value: "lokeshjcs@gmail.com",
+    href: "mailto:lokeshjcs@gmail.com",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+1 (555) 123-4567",
-    href: "tel:+15551234567",
+    value: "+1 902-338-2157",
+    href: "tel:+19023382157",
   },
   {
     icon: MapPin,
     label: "Location",
-    value: "San Francisco, CA",
-    href: "#",
+    value: "Nova Scotia, CA",
+    href: "https://www.google.com/maps/place/Nova+Scotia/@45.1858184,-68.3108709,6z/data=!3m1!4b1!4m6!3m5!1s0x4b591298de18cf45:0x102581ef8cf0940!8m2!3d45.0778473!4d-63.5466822!16zL20vMDU5dDg?entry=ttu&g_ep=EgoyMDI2MDUyNy4wIKXMDSoASAFQAw%3D%3D",
   },
 ];
 
@@ -100,14 +100,14 @@ export const Contact = () => {
             Get In Touch
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
-            Let's build{" "}
+          Let’s create {" "}
             <span className="font-serif italic font-normal text-white">
-              something great.
+            intelligent solutions together.
             </span>
           </h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            Have a project in mind? I'd love to hear about it. Send me a message
-            and let's discuss how we can work together.
+          Interested in collaborating, discussing opportunities, or building innovative software solutions? Feel free to reach out — 
+          I’d love to connect and explore how we can work together.
           </p>
         </div>
 
@@ -242,9 +242,8 @@ export const Contact = () => {
                 <span className="font-medium">Currently Available</span>
               </div>
               <p className="text-muted-foreground text-sm">
-                I'm currently open to new opportunities and exciting projects.
-                Whether you need a full-time engineer or a freelance consultant,
-                let's talk!
+              I’m actively seeking software engineering jobs and opportunities in full-stack development, AI, and cloud-based applications. 
+              Open to collaborations, freelance projects, and innovative tech challenges.
               </p>
             </div>
           </div>
